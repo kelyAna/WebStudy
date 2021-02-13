@@ -47,3 +47,21 @@ nav .menu a{
 #container footer{
     text-align: center;
 }
+
+article section{
+    justify-content: center;
+    align-items: center;
+}
+
+article section .fotos{
+    margin: 0 auto;
+    width: 70%;
+}
+
+article section .fotos img{
+    border: 5px groove rgb(191, 188, 188);
+}
+
+article section p{
+    justify-content: center;
+}
