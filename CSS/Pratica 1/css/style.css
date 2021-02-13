@@ -3,7 +3,9 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
 }
-
+p{
+    text-align: justify;
+}
 .container{
     margin: 0 auto;
     width: 900px;
@@ -13,23 +15,36 @@ nav{
     background-color: rgb(194, 194, 194);
     width: 900px;
     height: 50px;
-    position: relative;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
 }
-nav .menu{
-    margin: 0 auto;
-    width: 60%;
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-nav .menu a{
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    font-weight: bold;
-    color: rgb(55, 68, 51);
-    padding: 5px;
-    width: 200px;
+}
+
+nav ul li a:hover{
+    background-color: #ddd;
 }
 
 #container{
     margin: auto;
     width: 900px;
+    height: 100%;
     background-color: rgb(255, 255, 255);
     padding: 1px;
     align-items: center;
@@ -41,12 +56,13 @@ nav .menu a{
 }
 
 #container h1{
-    color: rgb(35, 56, 35);
+    color: #666;
 }
 
 #container footer{
     text-align: center;
-    color: rgb(35, 56, 35);
+    color: #666;
+    display: block
 }
 
 article section{
