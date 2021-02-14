@@ -16,12 +16,8 @@ body{
 
 */
 
-article section header h2{
-    position: relative;
-}
 
 article section #conteudo p{
-    position: relative;
     width: 300px;
     text-align: justify;
     color: saddlebrown;
@@ -35,5 +31,21 @@ article section #conteudo p{
 .relative{
     border: 1px solid rgb(242, 233, 233);
     position: relative;
+    left: 20px;
+}
+
+.absoluta{
+    position: absolute;
+    border: 1px solid rgb(242, 233, 233);
+    right:20px;
+    top: 80px;
+    background-color: rgb(204, 189, 187);
+}
+
+.fixa{
+    border: 1px solid gray;
+    background-color: #f2f2f2;
+    position: fixed;
+    top:0px;
     left: 20px;
 }
