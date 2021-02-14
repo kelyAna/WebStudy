@@ -1,0 +1,35 @@
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+/*
+    Formatação para links que não foram vistidados
+*/
+
+a:link{
+    color: blueviolet;
+}
+
+/*
+    Formatação para links que foram visitados.
+*/
+a:visited{
+    color: brown;
+}
+
+/*
+    Função hover para estilizar link ao passar o mouse.
+*/
+a:hover{
+    color: darkblue;
+    background-color: rgb(235, 232, 232);
+}
+
+/*
+    Formatação para quando o link for clicado(ativo).
+*/
+a:active{
+    color: darkcyan;
+    background-color: darksalmon;
+}
