@@ -1,0 +1,39 @@
+body{
+    background-color: #007fc7;
+}
+/*
+    Estilização do container
+*/
+#container{
+    background-color: #FFF;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/*
+    Posicionamento de elementos. Por padrão, elementos html têm posicionamento estático.
+
+*/
+
+article section header h2{
+    position: relative;
+}
+
+article section #conteudo p{
+    position: relative;
+    width: 300px;
+    text-align: justify;
+    color: saddlebrown;
+}
+
+/*
+    Quando trabalha-se com position em relative, é necessário utilizar propriedade de movimentação, como:
+    top, right, bottom e left.
+*/
+
+.relative{
+    border: 1px solid rgb(242, 233, 233);
+    position: relative;
+    left: 20px;
+}
