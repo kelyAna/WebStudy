@@ -13,25 +13,39 @@
 
 /*
     Elementos flutuantes
+
+    Para elementos flutuantes, utilizamos a propriedade float.
+    Um observação importante é que quando utilizamos uma div pai, 
+    para que a flutuação funciona como desejamos, precisamos utilizar
+    a propriedade clear para limpar o fluxo.
 */
+#elementos-flutuantes{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: burlywood;
+}
 
 .conteudo-elementos-flutuantes{
-    background-color: burlywood;
-    border: 1px solid rgb(20, 20, 20);
-    width: 150px;
-    height: 150px;
-    float: left;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
     margin: 10px;
+    float: left;
 }
 
 /*
-.conteudo-elementos-flutuantes1{
+.conteudo-zero{
     background-color: rgb(197, 135, 222);
     border: 1px solid black;
     width: 150px;
     height: 150px;
-    float: left;
     padding: 10px;
 }
-
 */
+
+/*
+    Propriedade para limpar o fluxo.
+*/
+.clear{
+    clear: both;
+}

@@ -1,0 +1,31 @@
+body{
+    background-color: #f4f4f4;
+}
+
+/*
+    Estilização do conteúdo principal
+*/
+
+#conteudo-principal{
+    width: 920px;
+}
+
+#conteudo-principal .noticia{
+    background-color: #e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin: 7px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+#galeria .imagem-galeria{
+    background-color: white;
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+}
