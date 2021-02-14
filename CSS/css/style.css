@@ -1,12 +1,37 @@
-.texto-paragrafo{
-    color: rgb(230, 181, 189);
-    font-weight: bold;
+/*
+    Modelo de caixa
+*/
+
+.conteudo-caixa{
+    border: 1px solid black;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 20px;
+    background-color: burlywood;
 }
 
-.texto-titulo{
-    color: rgb(255, 255, 255);
+/*
+    Elementos flutuantes
+*/
+
+.conteudo-elementos-flutuantes{
+    background-color: burlywood;
+    border: 1px solid rgb(20, 20, 20);
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    float: left;
 }
 
-#container{
-    background-color: black;
+/*
+.conteudo-elementos-flutuantes1{
+    background-color: rgb(197, 135, 222);
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 10px;
 }
+
+*/
