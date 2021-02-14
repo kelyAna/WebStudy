@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Elementos inline, block e inline-block.
+    Alguns elementos html podem ter display dos seguintes tipos:active
+
+    * Inline - elementos em mesma linha;
+    * Block - elementos abaixo do outro;
+    * Inline-block - elementos hibridos de ambos os tipos.
+*/
+
+article section .conteudo .borda{
+    border: 1px solid red;
+    display: inline;
+}
