@@ -1,19 +1,19 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(221, 209, 209);
+    background-color: rgb(206, 207, 211);
 }
+
 #header-nav{
     text-align: center;
     padding: 20px;
-    align-items: center;
-    justify-content: center;
+    display: inline;
 }
 #header-nav header h1{
-    color: rgb(182, 178, 178);
+    color: rgb(131, 129, 129);
     margin: 30px;
     text-shadow: 0.1em 0.0em 0.1em black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -25,17 +25,91 @@ body{
 }
 
 #header-nav nav{
-    border: 1px solid rgb(209, 208, 208);
     padding: 20px;
-    margin: auto;
+    margin: 0 auto;
     width: 70%;
+    border-radius: 1%;
+    background-color: rgb(169, 167, 167);
 }
 
 #header-nav nav a{
     text-decoration: none;
-    color: rgb(104, 102, 102);
+    color: rgb(79, 76, 76);
     font-size: 18px;
     font-weight: bold;
     padding: 10px;
-    text-shadow: 0.1em 0.0em 0.1em rgb(211, 211, 211);
 }
+#container{
+    margin-top: 20px;
+    flex-direction: column;
+    width: 768px;
+}
+
+#container .postagem{
+    width: 490px;
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    margin-left: 200px;
+    background-color: rgb(242, 240, 239);
+    border-radius: 1%;
+}
+
+#container .postagem img{
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 1%;
+    box-shadow: 0.1em 0.1em 0.1em rgb(109, 108, 108);
+}
+
+#container .postagem header{
+    height: 20px;
+    color: rgb(79, 75, 75);
+}
+
+#container .postagem header h2{
+    color: rgb(99, 96, 96);
+}
+
+#container .postagem header span{
+    font-family: cursive;
+}
+#container #card-postagens{
+    width: 250px;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 6%;
+    margin-left: auto;
+    position: relative;
+    bottom: 440px;
+    margin-left: 980px;
+}
+
+#container #card-postagens #card-1,#card-2{
+    background-color: rgb(242, 240, 239);
+}
+#container #card-postagens #card-1,#card-2 header, section{
+    padding: 10px;
+}
+
+#container #card-postagens section .texto-postagem, header{
+    margin: 10px;
+}
+
+#container #card-postagens section .texto-postagem{
+    color: rgb(89, 86, 86);
+}
+
+#container #card-postagens section .texto-postagem a{
+    color: rgb(73, 70, 70);
+    font-weight: bold;
+}
+
+#container #card-postagens h4{
+    background-color: rgb(218, 218, 218);
+    height: 20px;
+    padding: 10px;
+    color: rgb(112, 110, 110);
+    text-align: center;
+}
+
+
