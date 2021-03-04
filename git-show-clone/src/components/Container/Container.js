@@ -1,9 +1,13 @@
-import '/Container.css'
+import './Container.css'
 
-export function Container(){
-  return(
+import { Techs } from '../Techs/Techs'
+
+export function Container() {
+  return (
     <>
-
+      <div className='container'>
+        <Techs />
+      </div>
     </>
   )
 }

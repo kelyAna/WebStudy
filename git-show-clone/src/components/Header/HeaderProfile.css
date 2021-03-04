@@ -2,18 +2,20 @@
   background-color: #dbdde0;
   width: 90%;
   margin:  0 auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-header .profile{
-  align-items: center;
-  justify-content: center;
   margin: 0 auto;
   width: 300px;
   padding: 10px;
+  align-items: center;
+  text-align: center;
 }
 
 .container-header .profile img{
-  margin: 10px;
+  margin: 0 auto;
   width: 200px;
   border-radius: 50%;
 }
@@ -22,14 +24,15 @@
   font-weight:lighter;
   font-size: 24px;
   padding: 10px;
-  margin-left: 20px;
+  text-align: center;
   color: #6a6e77;
 }
 
 .container-header .social-media{
   width: 400px;
   padding: 10px;
-  margin-left: 550px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .container-header .social-media a{
@@ -44,7 +47,7 @@
 
 .container-header .about-me{
   width: 600px;
-  margin-left: 310px;
+  margin-left: 400px;
 }
 
 .container-header .about-me p{

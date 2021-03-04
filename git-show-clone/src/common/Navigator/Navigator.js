@@ -10,7 +10,7 @@ export function Navigator() {
         <div className="navigator-items">
           <img src="https://github.com/kelyAna.png" alt="Ana Kely" />
           <button>
-            <a>EDIT MY PROFILE</a>
+            <a href="#">EDIT MY PROFILE</a>
           </button>
         </div>
       </div>

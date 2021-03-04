@@ -19,8 +19,8 @@ export function HeaderProfile() {
         </div>
 
         <div className="social-media">
-          <a><img src="/github.svg" alt="GiHub" /></a>
-          <a><img src="/linkedin.svg" alt="GiHub" /></a>
+          <a href="#"><img src="/github.svg" alt="GiHub" /></a>
+          <a href="#"><img src="/linkedin.svg" alt="GiHub" /></a>
         </div>
       </div>
     </>
