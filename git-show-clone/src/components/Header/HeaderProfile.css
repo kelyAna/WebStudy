@@ -1,0 +1,53 @@
+.container-header{
+  background-color: #dbdde0;
+  width: 90%;
+  margin:  0 auto;
+}
+
+.container-header .profile{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 300px;
+  padding: 10px;
+}
+
+.container-header .profile img{
+  margin: 10px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.container-header .profile p{
+  font-weight:lighter;
+  font-size: 24px;
+  padding: 10px;
+  margin-left: 20px;
+  color: #6a6e77;
+}
+
+.container-header .social-media{
+  width: 400px;
+  padding: 10px;
+  margin-left: 550px;
+}
+
+.container-header .social-media a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-header .social-media a img{
+  width: 30px;
+  margin: 10px;
+}
+
+.container-header .about-me{
+  width: 600px;
+  margin-left: 310px;
+}
+
+.container-header .about-me p{
+  text-align: justify;
+  color: #6a6e77;
+}
