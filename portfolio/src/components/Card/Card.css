@@ -1,0 +1,28 @@
+.skills{
+  padding: 20px;
+}
+.skills p{
+  text-align: justify;
+  font-size: 20px;
+
+  color: #636060;
+
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.skills hr{
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+}
+
+.skills .techs{
+  display: flex;
+  margin: 0 auto;
+
+  width: 80%;
+}
+
+.skills .techs p{
+  font-size: 15px;
+}
